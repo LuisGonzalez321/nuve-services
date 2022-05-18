@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "auth_admins",
+  "info": {
+    "singularName": "auth-admin",
+    "pluralName": "auth-admins",
+    "displayName": "auth_admin"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}
